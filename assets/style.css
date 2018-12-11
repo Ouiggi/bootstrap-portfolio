@@ -1,0 +1,19 @@
+#footer {
+    border-top: 8px solid #42bb16;
+    background-color: #666666;
+    color: #cccccc;
+    font-family: 'Playfair Display', serif;
+}
+
+#submit {
+    background-color: #42bb16
+}
+
+#title {
+    background-image: url(../assets/greennebula.jpg);
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}

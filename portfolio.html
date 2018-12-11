@@ -5,28 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
 
-<nav class="navbar navbar-expand-md navbar-light bg-light" style="border-bottom:1px solid #cccccc">
-        <a class="navbar text-wrap text-center text-white ml-5 pl-2 pr-2 rounded-top" style="background-color:#4aaaa5">Brandon Wiggins</a>
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="index.html">About</a>
-            <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-          </div>
-      </nav>
+<nav class="navbar navbar-expand-md navbar-light bg-light pb-0" style="border-bottom:1px solid #cccccc">
+    <a id="title" class="navbar text-wrap text-center text-white ml-2 pl-2 pr-2 rounded-top"><h2>Brandon Wiggins</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a> 
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio</a><span class="sr-only">(current)</span></a>
+        </li>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
 
-<body style="background-image: url(assets/topography.png)">
-    <div class="mx-auto bg-warning mt-5 mb-5 p-4 w-75 border rounded">
+<body style="background-image: url(assets/brickwall.png)">
+    <div class="mx-auto bg-light mt-5 mb-5 p-4 w-75 border rounded">
             <div class="row">
-                <div class="col-md-4">
-                    <img src="assets/lightsaber.jpeg" alt="me" width="100%" class="rounded">
+                <div class="col-md-6">
+                    <img src="assets/CoCa.jpg" alt="its Shabutee" width="200px" height="200px" class="rounded mx-auto d-block mb-3">
                 </div>
-                <div class="col-md-8">Voilà! In view, a humble vaudevillian veteran, cast vicariously as both victim and villian by the vicissitudes of Fate. This visage, no mere veneer of vanity, is a vestige of the vox populi, now vacant, vanished. However, this valorous visitation of a by-gone vexation, stands vivified and has vowed to vanquish these venal and virulent vermin vanguarding vice and vouchsafing the violently vicious and voracious violation of volition. The only verdict is vengence; a vendetta, held as a votive, not in vain, for the value and veracity of such shall one day vindicate the vigilant and the virtuous. Verily, this vichyssoise of verbiage veers most verbose, so let me simply add that it is my very good honor to meet you and you may call me V.</div>
+                <div class="col-md-6">
+                    <img src="assets/vendetta.jpeg" alt="Remember Remember" width="200px" height="200px" class="rounded mx-auto d-block mb-3">
+                </div>
             </div>
-          </div>
-    
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/jedi.jpeg" alt="Space Wizards" width="200px" height="200px" class="rounded mx-auto d-block mb-3">
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/TimeMachine.jpeg" alt="no roads" width="200px" height="200px" class="rounded mx-auto d-block mb-3">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 rounded">
+                    <img src="assets/meeseeks.jpeg" alt="look at meee" width="200px" height="200px" class="rounded mx-auto d-block mb-3">
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-    <div class="fixed-bottom text-center text-white bg-dark pt-2 border-top border-info">Copyright© B.Wiggins2018</div>
+    <div id="footer" class="fixed-bottom text-center pt-2">Copyright© B.Wiggins2018</div>
 </html>
